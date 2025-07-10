@@ -1,5 +1,5 @@
 CXX := gcc
-CXXFLAGS := -std=c17 -O2 -Wall -Wextra
+CXXFLAGS := -std=c17 -O2 -Wall -Wextra -Wno-unused-result
 TARGET := xrd
 BUILD_DIR := build
 SRCS := main.c
